@@ -6,6 +6,6 @@ import org.springframework.stereotype.Repository;
 import br.com.luaazul.bankline.model.Correntista;
 
 @Repository
-public interface CorrentistaRepository extends JpaRepository<Correntista, Long> {
+public interface CorrentistaRepository extends JpaRepository<Correntista, Integer> {
 
 }
